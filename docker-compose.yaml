@@ -1,0 +1,7 @@
+version: '3'
+
+services:
+  demo-project:
+    build: .
+    ports:
+      - "8080:8080"
